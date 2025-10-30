@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* small helper for dark-mode body bg */
+:root {
+--app-bg: #f9fafb;
+}
+.dark {
+--app-bg: #0b1220;
+}
+
+
+body {
+background-color: var(--app-bg);
+}
